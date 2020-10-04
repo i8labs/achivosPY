@@ -20,7 +20,7 @@ def Add_Que(sub,clas,chapter,que_type,comp,marks,questions):
         options = obj.options
         if que_type == 'MCQ':
             for i in range(len(options)):
-                sql = """insert into Test_Option (QUE_ID,OPT) values(%s,%s)"""
+                sql = """insert into Question_Option (QUE_ID,OPT) values(%s,%s)"""
                 values = (que_id,options[i])
                 mycursor.execute(sql,values)
                 mydb.commit()
@@ -31,7 +31,7 @@ def Add_Que(sub,clas,chapter,que_type,comp,marks,questions):
                     mycursor.execute(sql,values)
                     mydb.commit()
         elif que_type == 'FIB':
-            sql = """insert into Test_Option (QUE_ID,OPT) values(%s,%s)"""
+            sql = """insert into Question_Option (QUE_ID,OPT) values(%s,%s)"""
             values = (que_id,obj.answer)
             mycursor.execute(sql,values)
             mydb.commit()

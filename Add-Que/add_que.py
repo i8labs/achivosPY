@@ -1,9 +1,9 @@
 import mysql.connector
 
 mydb = mysql.connector.connect(
-  host="adhyapak.cmh6pvva4wrd.ap-south-1.rds.amazonaws.com",
+  host="adhyapak-prod.c96b5awrjtpi.ap-south-1.rds.amazonaws.com",
   user="admin",
-  password="adhyapak1",
+  password="Prod12#$Prod",
   database="adhyapak"
 )
 

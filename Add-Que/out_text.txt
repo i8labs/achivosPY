@@ -1,19 +1,27 @@
-Subject: 12
-Class: 6
-Chapter: 33
-Type: MCQ
+Subject: 10012
+Class: 2
+Chapter: 10077
+Type: FIB
 Complexity: 1
 Marks: 1
 
-Q:) Ginger shows brown scale like leaves on it.The part of
-ginger that we use in cooking is actually a
-a:) stem
-b:) root
-c:) leaf
-d:) fruit
-answer: 2
+Q:) A factory produced 812 gas stoves in a year and  864 gas stoves in the following year. Find the increase in production of gas stoves? 
+answer: 52
 
-Q:) hello ginger
-a:) ginger 1
-b:) ginger 2
-answer: 1
+Q:) Tejas read 796 pages of his book before lunch. After lunch he read some more. If Tejas read  908 pages in all than how many pages did he read after lunch?
+answer: 112
+
+Q:) There are 949 people watching the soccer game.630 of them are adults. How many kids are watching the game?
+answer: 319
+
+Q:) There are 944 people watching the soccer game.637 of them are adults. How many kids are watching the game?
+answer: 307
+
+Q:) A string of light has 921 light bulbs out of which 546 are broken. How many light bulbs are in working condition?
+answer: 375
+
+Q:) Rajan invited 932 guests to his marriage. Only 572 guests came to the marriage. How many guets did not come?
+answer: 360
+
+Q:) A book had  855 pages. Arayn read 513 form the book. How many pages are reamining for Aryan to read ?
+answer: 342

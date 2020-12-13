@@ -2,7 +2,7 @@ import os
 from PIL import Image 
 import pytesseract
 
-arr = os.listdir("./data")
+arr = os.listdir("../data")
 try:
     arr.remove(".DS_Store")
 except:
@@ -18,7 +18,7 @@ for file in arr:
     print("processing file : " + filename )
     f = open(outfile, "a") 
     # Recognize the text as string in image using pytesserct 
-    text = str(((pytesseract.image_to_string(Image.open("./data/"+filename))))) 
+    text = str(((pytesseract.image_to_string(Image.open("../data/"+filename))))) 
 
     # In many PDFs, at line ending, if a word can't 
     # be written fully, a 'hyphen' is added. 
